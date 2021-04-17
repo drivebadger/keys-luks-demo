@@ -1,0 +1,14 @@
+# This file contains LUKS passwords, one per line.
+# Empty lines, and comments beginning from # are allowed in this file.
+#
+# Multiple luks.keys files are allowed - each in separate repository.
+# When multiple such files are detected, all passwords are tested against all possible LUKS partitions.
+
+# laptop password
+MyFancyPassword
+
+# laptop alternative password (for another key slot)
+R3c0ve4y_p@sSw0rd-f0r-my-1@pt0p
+
+# desktop password
+MyLUKSBootPassword123
